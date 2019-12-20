@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Utils">
+    <Position X="9.251" Y="8.057" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="high score API">
+    <Position X="3.028" Y="8.208" Height="0.291" Width="1.073" />
+  </Comment>
+  <Comment CommentText="Screens">
+    <Position X="5.25" Y="0.75" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Runners and Obsticals&#xD;&#xA;">
+    <Position X="16.5" Y="0.5" Height="0.291" Width="1.547" />
+  </Comment>
+  <Comment CommentText="Graphics">
+    <Position X="22.723" Y="0.5" Height="0.291" Width="0.7" />
+  </Comment>
+  <Class Name="Runner.Game">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Runner.Game.GameState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Game.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAQAAEAAAAAAAyECAAAAABAACAAAAAICoAQEBAAAAAQ=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.Censor">
+    <Position X="8" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAACAAAAAA=</HashCode>
+      <FileName>Utils\Censor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.FPSMeter">
+    <Position X="11.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAQAIAQAAAAAAAAAAAwQAQAAAgI=</HashCode>
+      <FileName>Utils\FPSMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.GameSettings">
+    <Position X="9.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAgIAAAAAABICAAgAAAAAAAABAAQIAAAAAAAACAgQ=</HashCode>
+      <FileName>Utils\GameSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.GlobalstatsIO_AccessToken">
+    <Position X="4.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAACAAAAAAAAAAAACAAAAAAAACAAAAAQAA=</HashCode>
+      <FileName>Utils\Gamestats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.GlobalstatsIO_RankResponseData">
+    <Position X="4.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Utils\Gamestats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.GlobalstatsIO_user_rank">
+    <Position X="0.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\Gamestats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.GlobalstatsIO_RankResponse">
+    <Position X="2.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Utils\Gamestats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.GlobalstatsIO_StatisticResponse">
+    <Position X="4.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\Gamestats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.GlobalstatsIO_StatisticValues">
+    <Position X="2.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAQAAIAEAAAAAAAEECAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\Gamestats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.GlobalStats">
+    <Position X="0.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIAAAAAABAAAAQAAAAAAAQAAEAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Utils\Gamestats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.InputDelay">
+    <Position X="6.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAACAAABAAg=</HashCode>
+      <FileName>Utils\InputDelay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Utils.SoundManager">
+    <Position X="8" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAgAAAAAAACAgAAAAAAAAAA=</HashCode>
+      <FileName>Utils\SoundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.States.SpashScreen">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQgAAAAAAAAiAAAAAAAAAAAAAAAAAAAAIAgAAAAAA=</HashCode>
+      <FileName>States\SpashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.States.Gameplay">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQggAAgAgAAgggAACAAAgAAQQAAAAAogAAAAAkBIAA=</HashCode>
+      <FileName>States\Gameplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.States.MainMenu">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAgBAAAAAAAgAAAAAAUAAACAAAAAEAAAUgAIQgAAA=</HashCode>
+      <FileName>States\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.States.GameOver">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\GameOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Runners.BaseRunner">
+    <Position X="13.75" Y="8.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Runner.Runners.BaseRunner.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Runners\BaseRunner.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AASAgAAAAAgAQgAgAAwAAGAAgBBAAAgEAAAIAAAwIBA=</HashCode>
+      <FileName>Runners\BaseRunner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Runners.BoyRunner">
+    <Position X="17.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAgAQAAACAwAAAAAgAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Runners\BoyRunner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Runners.CatRunner">
+    <Position X="20.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAgAQAAACAwAAAAAgAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Runners\CatRunner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Runners.DinoRunner">
+    <Position X="13.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAgAQAAACAwAAAAAgAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Runners\DinoRunner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Runners.DogRunner">
+    <Position X="19" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAgAQAAACAwAAAAAgAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Runners\DogRunner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Runners.GirlRunner">
+    <Position X="22.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAgAQAAACAwAAAAAgAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Runners\GirlRunner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Runners.KnightRunner">
+    <Position X="15.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAgAQAAACAwAAAAAgAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Runners\KnightRunner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Obsticals.ObsticalSpike">
+    <Position X="15.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAACAAAAAABAAAAAEAAAAAAAAAAIAA=</HashCode>
+      <FileName>Obsticals\ObsticalSpike.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Obsticals.BaseOpstical">
+    <Position X="15.5" Y="8.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Runner.Obsticals.BaseOpstical.AlignOptions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Obsticals\BaseOpstical.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAgAAAAIAAACBCACAAEAEAAIAAAAAIAA=</HashCode>
+      <FileName>Obsticals\BaseOpstical.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Obsticals.ObsticalGenerator">
+    <Position X="16.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAgAAAgAAAAIAAACACAAAAgCAAAACAABEAAA=</HashCode>
+      <FileName>Obsticals\ObsticalGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Obsticals.ObsticalSaw">
+    <Position X="17.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAACAAAAAABAAAAAEAAAAAAAAAAIAA=</HashCode>
+      <FileName>Obsticals\ObsticalSaw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Graphics.SpriteSheet">
+    <Position X="22.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEANAAACAkEMAAAAKAAACBAAAABEAAQAgAgAAAA=</HashCode>
+      <FileName>Graphics\SpriteSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Graphics.Background">
+    <Position X="20.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAABAAAggAAAAAAIAIAAACAAQAAAAAABAAAIAA=</HashCode>
+      <FileName>Graphics\Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Graphics.Platform">
+    <Position X="24" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Runner.Graphics.Platform.Textures" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Graphics\Platform.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAAAAAgQAUAgAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\Platform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.Graphics.PlatformGenerator">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\PlatformGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runner.BaseEntity">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgQAiAAAAAAECwAgGAoAEgABAAAAiAAEAIIAAAAAIAA=</HashCode>
+      <FileName>BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
